@@ -6,7 +6,7 @@ import com.branodn.mmall.annotation.ThreadSafe;
 
 /**
  * Created by Brandoncui on 2019/1/12.
- * 懒汉式-线程安全，
+ * 懒汉式-线程不安全，
  */
 @NotThreadSafe
 public class SingletonExample4 {
