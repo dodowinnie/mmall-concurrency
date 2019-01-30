@@ -1,6 +1,7 @@
 package com.branodn.mmall.example.immutable;
 
 import com.branodn.mmall.annotation.NotThreadSafe;
+import com.branodn.mmall.annotation.ThreadSafe;
 import com.google.common.collect.Maps;
 
 import java.util.Collections;
@@ -9,7 +10,7 @@ import java.util.Map;
 /**
  * Created by Brandoncui on 2019/1/29.
  */
-@NotThreadSafe
+@ThreadSafe
 public class ImmutableExample2 {
 
     private static Map<Integer, Integer> map = Maps.newHashMap();
