@@ -9,19 +9,19 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/cache")
 public class CacheController {
 
-    @Autowired
-    private RedisClient redisClient;
+    //@Autowired
+   // private RedisClient redisClient;
 
-    @RequestMapping("/set")
-    public String set(String key, String value) throws Exception {
-        redisClient.set(key, value);
-        return "success";
-    }
+//    @RequestMapping("/set")
+//    public String set(String key, String value) throws Exception {
+//        redisClient.set(key, value);
+//        return "success";
+//    }
 
 
-    @RequestMapping("/get")
-    public String get(String key) throws Exception {
-        return redisClient.get(key);
-    }
+//    @RequestMapping("/get")
+//    public String get(String key) throws Exception {
+//        return redisClient.get(key);
+//    }
 
 }

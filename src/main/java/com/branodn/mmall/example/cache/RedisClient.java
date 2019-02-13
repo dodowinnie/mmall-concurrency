@@ -7,7 +7,7 @@ import redis.clients.jedis.JedisPool;
 
 import javax.annotation.Resource;
 
-@Component
+//@Component
 public class RedisClient {
 
     @Resource(name = "redisPool")
